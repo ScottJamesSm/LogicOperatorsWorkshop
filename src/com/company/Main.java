@@ -45,5 +45,22 @@ public class Main {
             // yes it will run
             System.out.println("a != x && y + y == a");
         }
+        //less than <
+        if (a < b) {
+            // will this method run?
+            System.out.println("a < b");
+            //yes, this will run because the value of a is les than the value of b.
+        }
+        if(x > y) {
+            System.out.println("x > y");
+        }
+        if(b != y){
+            System.out.println("b != y");
+
+            if(a >= y){
+                System.out.println("b != y");
+                
+            }
+        }
     }
 }
